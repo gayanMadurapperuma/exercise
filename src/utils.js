@@ -7,7 +7,7 @@ const randomWordSync = (withErrors = false) => {
         try {
             return `${wordIndex}: ${getRandomWordSync({withErrors})}`
         } catch (error) {
-            return `${wordIndex} It shouldn't break anything!`;
+            return `${wordIndex}: It shouldn't break anything!`;
         }
     });
 }
@@ -18,7 +18,7 @@ const fizzBuzzRandomWordSync = (withErrors = false) => {
         try {
             return `${wordIndex}: ${wordFizzBuzz(wordIndex, withErrors)}`
         } catch (error) {
-            return `${wordIndex} It shouldn't break anything!`;
+            return `${wordIndex}: It shouldn't break anything!`;
         }
     });
 }
