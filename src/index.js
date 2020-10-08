@@ -1,4 +1,3 @@
-const { getRandomWordSync, getRandomWord } = require('word-maker');
 const {printEachValuesToLogger, resultsToHttp} = require('./helper');
 const {randomWordSync, randomWordAsync, fizzBuzzRandomWordSync, fizzBuzzRandomWordAsync} = require('./utils');
 
